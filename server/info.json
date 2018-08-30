@@ -1,0 +1,20 @@
+[
+    {
+        "itemsHm": 8,
+        "orderedHm": 0,
+        "productName": "Sleeveless T-shirt",
+        "companyName": "H & M",
+        "src": "http://lp2.hm.com/hmgoepprod?set=source[/5e/d3/5ed374b53df61405e167dc3113813155fc6b77bf.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]",
+        "price": 7.99,
+        "info": "Sleeveless T-shirt in jersey with a printed design. Raw edges around armholes. Rounded hem."
+    },
+    {
+        "itemsMediaMarket": 7,
+        "ordersMediaMarket": 0,
+        "productName": "APPLE iPad mini 4 WI-FI 128 GB 7.9 Zoll Tablet Silber",
+        "companyName": "Media Markt",
+        "src": "https://store.storeimages.cdn-apple.com/4667/as-images.apple.com/is/image/AppleInc/aos/published/images/i/pa/ipad/mini4/ipad-mini4-step1-wifi-silver_GEO_GB?wid=470&hei=556&fmt=png-alpha&.v=1507222493001",
+        "price": 429,
+        "info": "Includes insurance premium tax at the applicable rate 128GB Storage7.9 inch (diagonal) LED-backlit Multi-Touch Retina display 2048-by-1536 resolution at 326 pixels per inch (ppi) Fingerprint-resistant oleophobic coating Operating System: Apple iOS 9"
+    }
+]

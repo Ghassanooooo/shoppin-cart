@@ -19,18 +19,9 @@ checkoutHandler = () => {
 
   render() {
   
-   
-  
-
-    //  if(this.props.orderedHm >  0 ){show = !this.props.showProducts}
-
-
     return (
       <div style={{width:'37.6vw', marginLeft: '50px'}}>
-       
-        
-        
-          
+
             <CheckOut
               products={this.props.orderedHm}
               productName={this.props.productNameHm}
@@ -48,11 +39,8 @@ checkoutHandler = () => {
               price={this.props.priceMediaMarket}
               removeOne={this.props.OnRemoveOneMediaMarket}
               removeAll={this.props.OnRemoveAllMediaMarket}
-
-
             />  
-            
-       
+                
       <Card body>
         
         <CardText><span style={{fontSize: '25px', color: 'blue'}}>total price: </span>
@@ -63,9 +51,6 @@ checkoutHandler = () => {
          
         <Button style={{width: '200px'}} color="warning" onClick={this.checkoutHandler}>check Out</Button>
       </Card>
-
- 
-
       </div>
     )
   }
@@ -79,9 +64,7 @@ const mapStatesToProps = state => {
     priceHm: state.HM.price,
 
 
-
     ordersMediaMarket: state.MediaMarket.ordersMediaMarket,
-
     productNameMediaMarket: state.MediaMarket.productName,
     companyNameMediaMarket: state.MediaMarket.companyName,
     priceMediaMarket: state.MediaMarket.price

@@ -42,7 +42,7 @@ export const setMediaMarketData = (MediaMarket) => {
 export const fetchMediaMarketData = () =>{
     return dispatch => { 
         
-        axios.get('http://10.0.1.33:4000/api')
+        axios.get('http://localhost:4000/api')
         .then(res =>{
          dispatch(setMediaMarketData(res.data[1]))
          console.log('HHHHHHHHHHHHHHHHHHHHHHHHHHHHH',res.data)

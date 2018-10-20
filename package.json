@@ -16,14 +16,14 @@
   "scripts": {
     "build-css": "node-sass-chokidar src/sass/ -o src/styles/",
     "watch-css": "npm run build-css && node-sass-chokidar src/sass/ -o src/styles/ --watch --recursive",
-    "build-js": "react-scripts build",
-    "start-js": "react-scripts start",
+    "build": "react-scripts build",
+    "start": "react-scripts start",
     "dev": "npm-run-all -p watch-css start-js",
-    "build": "npm-run-all build-css build-js",
+    "build-js": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "server": "npm run start --prefix server",
-    "start": "concurrently \"npm run dev\" \"npm run server\""
+    "start-js": "concurrently \"npm run dev\" \"npm run server\""
   },
   "devDependencies": {
     "enzyme": "^3.5.0",
